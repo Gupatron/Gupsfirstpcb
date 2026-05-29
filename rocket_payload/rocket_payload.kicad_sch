@@ -12855,6 +12855,320 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_FET:DMG2301L"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "DMG2301L"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMG2301L.pdf"
+				(at 5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "-3A Id, -20V Vds, P-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "P-Channel MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DMG2301L_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DMG2301L_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -13637,6 +13951,12 @@
 		(uuid "094386ae-1805-4c05-be52-815c0117ca2e")
 	)
 	(junction
+		(at 419.1 476.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "099d52c8-b92f-44c6-be9d-a0b4ea8e5fdd")
+	)
+	(junction
 		(at 104.14 439.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13967,6 +14287,12 @@
 		(uuid "5d0b99ba-6f27-4e9c-ab2a-a7121747d451")
 	)
 	(junction
+		(at 439.42 505.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ebf1728-0ef7-48c1-9c0a-101960bfca98")
+	)
+	(junction
 		(at 330.2 491.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14127,12 +14453,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99fe4631-b83d-49ba-82d2-21e1b84976e1")
-	)
-	(junction
-		(at 444.5 505.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d5a6e9c-f8a2-47a8-bd1c-ae6b048ae6da")
 	)
 	(junction
 		(at 91.44 439.42)
@@ -14663,10 +14983,6 @@
 		(uuid "582a8603-af9b-42af-8a8b-ed9501af2f1a")
 	)
 	(no_connect
-		(at 307.34 86.36)
-		(uuid "59c6e512-ab29-46a1-a35f-d2d9a75a0a76")
-	)
-	(no_connect
 		(at 307.34 195.58)
 		(uuid "5aefd506-cc85-44b2-8c78-fba7d6f5cae7")
 	)
@@ -14817,10 +15133,6 @@
 	(no_connect
 		(at 231.14 116.84)
 		(uuid "918160ad-c2ed-4f1d-b8a3-9fe00f672c7d")
-	)
-	(no_connect
-		(at 307.34 88.9)
-		(uuid "938d731d-9f1d-4309-acdf-9fa3862905ec")
 	)
 	(no_connect
 		(at 307.34 256.54)
@@ -15304,6 +15616,16 @@
 	)
 	(wire
 		(pts
+			(xy 419.1 480.06) (xy 419.1 476.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0af72eb8-7c64-4cf6-8dd9-03078430c1b2")
+	)
+	(wire
+		(pts
 			(xy 533.4 77.47) (xy 544.83 77.47)
 		)
 		(stroke
@@ -15731,6 +16053,16 @@
 			(type default)
 		)
 		(uuid "2354bab0-6c4c-4b6d-99ff-62fc62170267")
+	)
+	(wire
+		(pts
+			(xy 414.02 476.25) (xy 419.1 476.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2374e57e-adeb-4519-ab53-88728cf6f797")
 	)
 	(wire
 		(pts
@@ -16194,6 +16526,16 @@
 	)
 	(wire
 		(pts
+			(xy 419.1 476.25) (xy 420.37 476.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36f38014-990f-4d61-ac22-902686aed67d")
+	)
+	(wire
+		(pts
 			(xy 486.41 472.44) (xy 486.41 474.98)
 		)
 		(stroke
@@ -16541,6 +16883,16 @@
 			(type default)
 		)
 		(uuid "4467dfdd-3457-431c-acc1-5914d5c7491a")
+	)
+	(wire
+		(pts
+			(xy 425.45 505.46) (xy 439.42 505.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4491f662-cd77-4d5f-9268-c2a5b815e6c7")
 	)
 	(wire
 		(pts
@@ -17554,6 +17906,16 @@
 	)
 	(wire
 		(pts
+			(xy 419.1 468.63) (xy 419.1 476.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "776819b4-4024-467d-b0a7-52ff1769b53c")
+	)
+	(wire
+		(pts
 			(xy 496.57 538.48) (xy 496.57 520.7)
 		)
 		(stroke
@@ -17591,6 +17953,16 @@
 			(type default)
 		)
 		(uuid "78334ec6-201d-465f-afc9-d39ae7c10cc7")
+	)
+	(wire
+		(pts
+			(xy 430.53 468.63) (xy 427.99 468.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78e82143-ac64-41c3-b2f7-923f4f143b06")
 	)
 	(wire
 		(pts
@@ -17884,7 +18256,7 @@
 	)
 	(wire
 		(pts
-			(xy 444.5 501.65) (xy 444.5 505.46)
+			(xy 439.42 501.65) (xy 439.42 505.46)
 		)
 		(stroke
 			(width 0)
@@ -18381,6 +18753,16 @@
 			(type default)
 		)
 		(uuid "982c134a-bc71-4c66-80ec-bcea136e2dac")
+	)
+	(wire
+		(pts
+			(xy 307.34 88.9) (xy 318.77 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "998ad7ec-9be8-458c-b3d1-d926036503cb")
 	)
 	(wire
 		(pts
@@ -18954,6 +19336,16 @@
 	)
 	(wire
 		(pts
+			(xy 427.99 468.63) (xy 427.99 471.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7c1be93-69ce-4694-bd1f-867c6596de1b")
+	)
+	(wire
+		(pts
 			(xy 574.04 77.47) (xy 574.04 78.74)
 		)
 		(stroke
@@ -18974,7 +19366,7 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 505.46) (xy 444.5 505.46)
+			(xy 439.42 505.46) (xy 463.55 505.46)
 		)
 		(stroke
 			(width 0)
@@ -19221,6 +19613,16 @@
 			(type default)
 		)
 		(uuid "c4131379-d5f8-477d-b939-7b73f4aeacc0")
+	)
+	(wire
+		(pts
+			(xy 427.99 488.95) (xy 427.99 481.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c48aa6bd-a84c-4f15-9795-5ccdaafd6645")
 	)
 	(wire
 		(pts
@@ -19474,6 +19876,16 @@
 	)
 	(wire
 		(pts
+			(xy 419.1 487.68) (xy 419.1 488.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d16ab940-c60c-4531-8c99-8fbec7e5dcbc")
+	)
+	(wire
+		(pts
 			(xy 685.8 154.94) (xy 685.8 161.29)
 		)
 		(stroke
@@ -19654,6 +20066,16 @@
 	)
 	(wire
 		(pts
+			(xy 431.8 487.68) (xy 431.8 488.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9692722-f58e-4bc5-90d8-660e5dee527e")
+	)
+	(wire
+		(pts
 			(xy 508 267.97) (xy 491.49 267.97)
 		)
 		(stroke
@@ -19751,6 +20173,16 @@
 			(type default)
 		)
 		(uuid "e04b8c25-704c-4854-b80e-bd038c246bf7")
+	)
+	(wire
+		(pts
+			(xy 431.8 488.95) (xy 427.99 488.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e10ca1bb-7696-49fb-a2bb-feda4efa8359")
 	)
 	(wire
 		(pts
@@ -20264,16 +20696,6 @@
 	)
 	(wire
 		(pts
-			(xy 444.5 505.46) (xy 463.55 505.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9573988-f278-43e6-bf26-aecae6817f78")
-	)
-	(wire
-		(pts
 			(xy 551.18 331.47) (xy 551.18 321.31)
 		)
 		(stroke
@@ -20491,6 +20913,16 @@
 			(justify right bottom)
 		)
 		(uuid "1bb21885-71a2-45f0-8dd1-bacc77b8e351")
+	)
+	(label "GPS_SWITCH"
+		(at 414.02 476.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1dfd8108-27f6-461e-a03f-f29c13d4bd34")
 	)
 	(label "SDMMC_D3"
 		(at 570.23 474.98 0)
@@ -21032,6 +21464,26 @@
 		)
 		(uuid "84bb84f4-6040-4c47-b896-0e3fb97fcd6f")
 	)
+	(label "ESP_EN"
+		(at 307.34 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "856f3261-a3da-457e-b73d-9b501686c40a")
+	)
+	(label "DRAIN"
+		(at 425.45 505.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "87c72769-3e8c-408b-942d-957e11a90467")
+	)
 	(label "SD_VDD"
 		(at 574.04 480.06 180)
 		(effects
@@ -21152,6 +21604,16 @@
 		)
 		(uuid "a710c4de-6a3b-48dd-b8b5-4f5dc58c0528")
 	)
+	(label "GPS_SWITCH"
+		(at 318.77 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a92855c3-e5a9-408c-8c2e-a58ee8a038ba")
+	)
 	(label "VREF"
 		(at 219.71 86.36 0)
 		(effects
@@ -21271,6 +21733,16 @@
 			(justify left bottom)
 		)
 		(uuid "bd464916-80c5-4fe8-8da8-aa3be53d7691")
+	)
+	(label "DRAIN"
+		(at 430.53 468.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be04c1c9-24ad-439d-aff6-0f6c505419de")
 	)
 	(label "D_minus_ch340"
 		(at 693.42 336.55 0)
@@ -22136,6 +22608,88 @@
 			(project "rocket_payload"
 				(path "/38020017-d4c5-42f1-9612-5a6241c4a7b5"
 					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 419.1 464.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "052c51cb-93c1-471a-a0c5-07dead26691d")
+		(property "Reference" "R30"
+			(at 421.64 463.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 421.64 466.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 417.322 464.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 419.1 464.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 419.1 464.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4cbfa8ab-7a6b-4f90-a53f-80c548ae3711")
+		)
+		(pin "2"
+			(uuid "6d5d0a0e-e51a-4707-8dfe-799c09919079")
+		)
+		(instances
+			(project "rocket_payload"
+				(path "/38020017-d4c5-42f1-9612-5a6241c4a7b5"
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -25385,6 +25939,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:DMG2301L")
+		(at 425.45 476.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2134049f-4266-4225-b541-393446158c09")
+		(property "Reference" "Q1"
+			(at 431.8 474.9799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMG2301L"
+			(at 431.8 477.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 430.53 478.155 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMG2301L.pdf"
+			(at 430.53 480.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "-3A Id, -20V Vds, P-Channel MOSFET, SOT-23"
+			(at 425.45 476.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "e9b579bb-8dbf-4133-b26b-747eeb1cf712")
+		)
+		(pin "1"
+			(uuid "799aa97c-c34b-4ab6-beb8-ee7530bc2dac")
+		)
+		(pin "2"
+			(uuid "8556a3ec-274b-4998-932c-80beaa1d2217")
+		)
+		(instances
+			(project "rocket_payload"
+				(path "/38020017-d4c5-42f1-9612-5a6241c4a7b5"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power_Protection:PRTR5V0U2X")
 		(at 461.01 561.34 0)
 		(unit 1)
@@ -27442,7 +28084,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 444.5 501.65 0)
+		(at 439.42 501.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27453,7 +28095,7 @@
 		(fields_autoplaced yes)
 		(uuid "32c4b9ed-80f5-4052-b43c-f27325d694d3")
 		(property "Reference" "#PWR061"
-			(at 444.5 505.46 0)
+			(at 439.42 505.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27464,7 +28106,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 444.5 496.57 0)
+			(at 439.42 496.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27474,7 +28116,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 444.5 501.65 0)
+			(at 439.42 501.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27485,7 +28127,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 444.5 501.65 0)
+			(at 439.42 501.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27496,7 +28138,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 444.5 501.65 0)
+			(at 439.42 501.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32227,6 +32869,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 419.1 461.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ea0602e-3906-4271-a2df-61be97e4e9b0")
+		(property "Reference" "#PWR097"
+			(at 419.1 464.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 419.1 455.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 419.1 461.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 419.1 461.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 419.1 461.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4506793a-6370-44da-8e89-13fd24822e28")
+		)
+		(instances
+			(project "rocket_payload"
+				(path "/38020017-d4c5-42f1-9612-5a6241c4a7b5"
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:BAT54J")
 		(at 585.47 280.67 180)
 		(unit 1)
@@ -32382,6 +33102,85 @@
 			(project "rocket_payload"
 				(path "/38020017-d4c5-42f1-9612-5a6241c4a7b5"
 					(reference "C55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 419.1 488.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85853a86-fb2b-49e0-9ed1-ef190161c5d1")
+		(property "Reference" "#PWR098"
+			(at 419.1 495.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 419.1 494.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 419.1 488.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 419.1 488.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 419.1 488.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "96d5253a-028e-4372-b8f7-e728d9afe0b2")
+		)
+		(instances
+			(project "rocket_payload"
+				(path "/38020017-d4c5-42f1-9612-5a6241c4a7b5"
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -36292,6 +37091,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 419.1 483.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1f4d4a5-8143-4573-bbea-c40c8681f4ba")
+		(property "Reference" "R29"
+			(at 421.64 482.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100K"
+			(at 421.64 485.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 417.322 483.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 419.1 483.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 419.1 483.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "01533c3d-eb09-4d08-bd89-eabf915cd84e")
+		)
+		(pin "2"
+			(uuid "28bdf25a-3bab-41ed-a367-c974043d17e3")
+		)
+		(instances
+			(project "rocket_payload"
+				(path "/38020017-d4c5-42f1-9612-5a6241c4a7b5"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 758.19 473.71 0)
 		(unit 1)
@@ -38856,6 +39737,84 @@
 			(project "rocket_payload"
 				(path "/38020017-d4c5-42f1-9612-5a6241c4a7b5"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 431.8 487.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd3c24f9-abe4-4ca5-a546-f486cfbc7778")
+		(property "Reference" "#PWR096"
+			(at 431.8 491.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 431.8 482.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 431.8 487.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 431.8 487.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 431.8 487.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c92aa12a-62b7-43f8-8625-e12d83c60347")
+		)
+		(instances
+			(project "rocket_payload"
+				(path "/38020017-d4c5-42f1-9612-5a6241c4a7b5"
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
